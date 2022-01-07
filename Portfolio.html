@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable=yes">
+    <title> Josue's Portfolio Website </title>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> 
+
+    <!-- Update these with your own fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styling.css">
+
+    <link rel="portfolio icon" type="image/png" href="img/portfolio_icon.png">
+
+  </head>
+
+  <body>
+        <header>
+            <div class="logo">
+                <a href="#home">
+                <img src="img/logo-img2.png" alt="">
+                </a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+              Hi, I am <strong>Josue Ayala</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro"> Discovering TECH </p>
+        <img src="img/intro-img2.jpg" alt="a picture of Josue " class="intro__img"> <!-- Add image here -->
+    </section>
+
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+          <h2 class="section__title section__title--services"> What I study </h2>
+          <div class="services">
+
+                <div class="service">
+                    <h3> Data Analysis </h3>
+                    <p>Data analysis is a process of inspecting, cleansing, transforming, 
+                        and modelling data with the goal of discovering useful information, 
+                        informing conclusions, and supporting decision-making.</p>
+                </div> <!-- / service  -->
+
+                <div class="service">
+                    <h3> Machine Learning </h3>
+                    <p> The study of computer algorithms that can improve automatically
+                      through experience and by the use of data. It is seen as a part of
+                      artificial intelligence.</p>
+                </div> <!-- / service  -->
+
+                <div class="service">
+                    <h3> Web development </h3>
+                    <p> The work involved in developing a Web site for the Internet
+                      or an intranet. Web development can range from developing a
+                      simple single static page of plain text to complex web applications,
+                      electronic businesses, and social network services.</p>
+                </div> <!-- / service  -->
+
+                <div class="service">
+                    <h3> Pen Testing [KaliLinux] </h3>
+                    <p>A penetration test, colloquially known as a pen test or ethical hacking,
+                         is an authorized simulated cyberattack on a computer system, performed
+                          to evaluate the security of the system.</p>
+
+                </div>
+
+            </div> <!-- / services  -->
+
+            <a href="#work" class="btn"> My Work </a>
+    </section>
+
+
+    <!-- About me  -->
+    <section class="about-me" id="about">
+          <h2 class="section__title section__title--about"> Who I am </h2>
+          <p class="section__subtitle section__subtitle--about"> Based out of San Diego </p>
+
+          <div class="about-me__body">
+
+              <p>Over the years I have become passionate about the technological and scientific
+                 industry. Although being a skillful statistician and a keen programmer are important, other 
+                 qualities for the workforce are necessary. Honesty, diligence, teamwork, patience, and respect are important
+                 attributes one must possess to ensure a proper work environment in order to produce a
+                 competent performance. I continue to research and implement tasks related computer
+                 hardware and software, programming languages, artificial intelligence,
+                 data analysis techniques, in order to properly understand what employers might consider valuable for their company.
+                  </p>
+
+              <p>I currently build websites using HTML, CSS, Javascript and Django. I use
+                 Python libraries like numpy, pandas, seaborn, scikitlearn, matplotlib for
+                 analysis and visualizations. Other work includes the use of Keras/Tensorflow for Machine Learning,
+                 Deep Learning, and TinyML (embedded systems). All while sharpening my skills in
+                 Big Data tools like pySpark and map Reduce, AWS for cloud services, C/C++ for
+                 data structures and memory optimization. Lastly, I implement penetration testing for 
+                 information security using Kali Linux through a virtual machine.</p>
+
+          </div>
+
+
+          <img src="img/SanDiegoAbout.jpg" alt="Balboa Park Image SD" class="about-me__img"> <!-- Add image here -->
+    </section>
+
+
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My Work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+            <div class="portfolio"> <!-- Add multiple images here -->
+                <!-- Portfolio item 01 -->
+                <a href="portfolio-item2.html" class="portfolio__item">
+                    <img src="img/my-work1.jpg" alt="machine learning image" class="portfolio__img">
+                    <p> Breast Cancer prediction </p>
+                </a>
+                        
+                <!-- Portfolio item 02 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/my-work4.jpg" alt="analysis image" class="portfolio__img">
+                    <p> Retail Data Analysis </p>
+                </a>
+
+                <!-- Portfolio item 03 -->
+                <a href="portfolio-item3.html" class="portfolio__item">
+                    <img src="img/my-work3.jpg" alt="arduino ble image" class="portfolio__img">
+                    <p> TinyML research </p>
+                </a>
+
+                <!-- Portfolio item 04 -->
+                <a href="portfolio-item4.html" class="portfolio__item">
+                    <img src="img/covid19.jpg" alt="Covid19" class="portfolio__img">
+                    <p> SD County Operations</p>
+                </a>
+
+                <!-- Portfolio item 05 -->
+                <!--<a href="#" class="portfolio__item">
+                    <img src="img.jpg" alt="" class="portfolio__img">
+                </a> -->
+
+
+            </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:jayalaoc@ucsd.edu" class="footer-link">jayalaoc@ucsd.edu</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link"  href="https://www.linkedin.com/in/josue-ayala-ocegueda-30b408189/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link"  href="https://github.com/jayalaoc">
+                    <i class="fab fa-github-square"></i>
+                </a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link"  href="https://twitter.com">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+  </body>
+
+</html>
+
+<!--RESUME: https://www.youtube.com/watch?v=_xkSvufmjEs&t=7535s -->
+<!--<div>Icons made by <a href="" title="Kiranshastry">Kiranshastry</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
