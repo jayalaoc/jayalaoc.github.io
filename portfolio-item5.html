@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable=yes">
+    <title> Josue's Portfolio Website </title>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> 
+
+    <!-- Update these with your own fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styling.css">
+
+    <link rel="portfolio icon" type="image/png" href="img/browsers_icon.png">
+
+  </head>
+
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+    }
+    
+    .bgimg {
+      background-image: url('/Users/jayalaoc/Desktop/JosueWebsite/Nature.jpg');
+      height: 100%;
+      background-position: center;
+      background-size: cover;
+      position: relative;
+      color: white;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 25px;
+    }
+    
+    .topleft {
+      position: absolute;
+      top: 0;
+      left: 16px;
+    }
+    
+    .bottomleft {
+      position: absolute;
+      bottom: 0;
+      left: 16px;
+    }
+    
+    .middle {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    
+    hr {
+      margin: auto;
+      width: 40%;
+    }
+
+    </style>
+
+  <body>
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo-img2.png" alt="">
+                </a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Research</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" >
+            <h1 class="section__title section__title--intro">
+                Project: <strong> Pyspark for Big Data </strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro"> Coming Soon </p>
+            <img src="img/my-work2.jpg" alt="PySparkimage " class="intro__img"> <!-- Add image here -->
+        </section>
+
+        <!-- bgimg container-->
+        <div class="bgimg">
+            <div class="topleft">
+              <p>rCloudTech</p>
+            </div>
+            <div class="middle">
+              <h1> COMING SOON</h1>
+              <hr>
+              <p id="demo" style="font-size:30px"></p>
+            </div>
+            <div class="bottomleft">
+              <p> 2022 </p>
+            </div>
+          </div>
+
+    <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:jayalaoc@ucsd.edu" class="footer-link">jayalaoc@ucsd.edu</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link"  href="https://www.linkedin.com/in/josue-ayala-ocegueda-30b408189/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link"  href="https://github.com/jayalaoc">
+                        <i class="fab fa-github-square"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link"  href="https://twitter.com">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+  </body>
+
+</html>
+
+<!--RESUME: https://www.youtube.com/watch?v=_xkSvufmjEs&t=7535s -->
+<!-- https://www.flaticon.com/search?word=ai&order_by=4&type=icon -->
