@@ -1,3 +1,3 @@
-# jayalaoc.github.io-
+# portfolio
 
-https://github.com/jayalaoc/jtech.github.io
+https://jayalaoc.github.io
